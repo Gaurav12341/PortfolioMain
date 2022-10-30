@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lacquer&family=Marko+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
 
 *{
     margin: 0;
@@ -13,7 +14,19 @@
     /* outline: 1px solid #f00 !important; */
 }
 
+::-webkit-scrollbar{
+    width: 15px;
+}
 
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(131, 131, 131);
+    border-radius: 50px;
+}
 
 #home{
     width: 100%;
@@ -54,6 +67,11 @@ nav{
 nav .logo{
     max-height:4rem ;
     filter:invert(1) ;
+}
+
+nav .logo:hover{
+    transform: rotateY(360deg);
+    transition: 1s;
 }
 
 
@@ -407,18 +425,22 @@ nav a:hover:after {
 
 #about .content2 h2 {
     width: 54%;
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(94, 97, 34);
     border-radius: 10px;
     padding: 3px 15px;
     font-family: 'Marko One', serif;
     text-decoration: underline;
     font-size: 38px;
-    background: linear-gradient(to right, #FCFCFC -8%, #B8B8B8 13%, #616161 92%);
+    background: linear-gradient(to right, #FCFCFC -8%, #B8B8B8 23%, #8d8d8d 92%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
 }
 
+#about .content2 h2:hover{
+    transform: rotateX(360deg);
+    transition: 2s;
+}
 
 .skills{                                /* Images of technologies I use */
     width: 100%;
@@ -615,7 +637,7 @@ box-sizing: content-box;
 
 
 .content2 p{
-    color: rgb(137, 137, 137);
+    color: rgb(161, 161, 161);
     font-family: 'Marko One', serif;
     font-size: 1.1rem;
 }
@@ -630,7 +652,7 @@ box-sizing: content-box;
 
 
 .content2 li{
-    color: rgb(133, 133, 133);
+    color: rgb(161, 161, 161);
     line-height: 1.5rem;
 }
 
@@ -638,11 +660,327 @@ box-sizing: content-box;
 #projects{                      /* Projects Page */
     background-color: rgb(50, 50, 50);
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     padding: 4rem;
-    padding-top: 8rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#projects .projectheading h2{
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid rgb(94, 97, 34);
+    border-radius: 10px;
+    padding: 3px 15px;
+    font-family: 'Marko One', serif;
+    text-decoration: underline;
+    font-size: 42px;
+    background: linear-gradient(to right, #FCFCFC -8%, #B8B8B8 23%, #8d8d8d 92%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 5rem;
+}
+
+#projects .projectheading h2:hover{
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+
+#projects .projectbox{
+    width: 100%;
+    height: 100%;
+}
+
+#projects .projectbox .projectbox1{
+    width: 100%;
+    height: 27%;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#projects .projectbox .projectbox1 .projectbox1lhs{
+    width: 60%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+    border-right: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(181,181,181,0.75) inset;
+}
+
+.projectbox1lhs .projectcard1, .projectcard2, .projectcard3{
+    width: 580px;
+    height: 100%;
+    border-radius: 10px;
+}
+/* project2 */
+
+/* project 2 end */
+
+.projectbox1lhs .projectcard1{
+    background: url('Screenshot\ \(63\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.projectbox1lhs .projectcard2{
+    background: url('Screenshot\ \(64\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projectbox1lhs .projectcard3{
+    background: url('Screenshot\ \(65\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projectbox1lhs::-webkit-scrollbar{
+    height: 15px;
+    width: 90%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.projectbox1lhs::-webkit-scrollbar-track{
+    background: rgb(73, 73, 73);
+    background: transparent;
+    border-radius: 5px;
+}
+
+.projectbox1lhs::-webkit-scrollbar-thumb{
+    background: rgb(157, 157, 157);
+    border-radius: 50px;
+}
+
+.projectbox1 .projectbox1rhs{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width: 40%;
+}
+
+.projectbox1 h2{
+    color: rgb(196, 196, 196);
+    font-family: 'Marko One', serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.projectbox1rhsreading{
+    margin-bottom: 20px;
+}
+
+.projectbox1rhsabout p{
+    text-align: center;
+    color: rgb(175, 175, 175);
+
+}
+
+#projects .projectbox .projectbox2{
+    width: 100%;
+    height: 27%;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.projectbox2lhs{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width: 40%;
+}
+
+.projectbox2lhsreading{
+    margin-bottom: 20px;
+}
+
+.projectbox2lhsreading h2{
+    color: rgb(196, 196, 196);
+    font-family: 'Marko One', serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.projectbox2lhsabout p{
+    text-align: center;
+    color: rgb(175, 175, 175);
+}
+
+#projects .projectbox .projectbox2 .projectbox2rhs{
+    width: 60%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+    border-left: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(181,181,181,0.75) inset;
+}
+
+.projectbox2rhs .projectcard21, .projectcard22, .projectcard23{
+    width: 580px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.projectbox2rhs .projectcard21{
+    background: url('Screenshot\ \(61\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.projectbox2rhs .projectcard22{
+    background: url('Screenshot\ \(59\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projectbox2rhs .projectcard23{
+    background: url('Screenshot\ \(62\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projectbox2rhs::-webkit-scrollbar{
+    height: 15px;
+    width: 90%;
+}
+
+.projectbox2rhs::-webkit-scrollbar-track{
+    background: rgb(73, 73, 73);
+    background: transparent;
+    border-radius: 5px;
+}
+
+.projectbox2rhs::-webkit-scrollbar-thumb{
+    background: rgb(157, 157, 157);
+    border-radius: 50px;
+}
+
+
+/* Project3 */
+#projects .projectbox .projectbox3{
+    width: 100%;
+    height: 27%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#projects .projectbox .projectbox3 .projectbox3lhs{
+    width: 60%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+    border-right: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(181,181,181,0.75) inset;
+}
+
+.projectbox3lhs .projectcard31, .projectcard32, .projectcard33{
+    width: 580px;
+    height: 100%;
+    border-radius: 10px;
+}
+/* project2 */
+
+/* project 2 end */
+
+.projectbox3lhs .projectcard31{
+    background: url('Screenshot\ \(67\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.projectbox3lhs .projectcard32{
+    background: url('Screenshot\ \(68\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projectbox3lhs .projectcard33{
+    background: url('Screenshot\ \(69\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projectbox3lhs::-webkit-scrollbar{
+    height: 15px;
+    width: 90%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.projectbox3lhs::-webkit-scrollbar-track{
+    background: rgb(73, 73, 73);
+    background: transparent;
+    border-radius: 5px;
+}
+
+.projectbox3lhs::-webkit-scrollbar-thumb{
+    background: rgb(157, 157, 157);
+    border-radius: 50px;
+}
+
+.projectbox3 .projectbox3rhs{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width: 40%;
+}
+
+.projectbox3 h2{
+    color: rgb(196, 196, 196);
+    font-family: 'Marko One', serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.projectbox3rhsreading{
+    margin-bottom: 20px;
+}
+
+.projectbox3rhsabout p{
+    text-align: center;
+    color: rgb(175, 175, 175);
+}
 
 #contactme{                     /* Contacts Page */
     display: flex;
