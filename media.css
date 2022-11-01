@@ -83,6 +83,9 @@
         width: 66%;
         height: 57%;
     }
+    .container5{
+        height: 100%;
+    }
     .container5 h2 {
         font-size: 19px;
         margin-bottom: 18px;
@@ -94,14 +97,14 @@
 
     .socialmedia i {
         font-size: 1.2rem;
-        line-height: 22px;
+        line-height: 25px;
     }
     .physical {
         padding: 4% 5%;
     }
 
     .physical i {
-        line-height: 18px;
+        line-height: 25px;
         font-size: 1.1em;
     }
     .socialmedia {
@@ -110,6 +113,10 @@
     form .btn1 {
         width: 40%;
         margin-top: 0%;
+    }
+
+    #projects{
+        height: 240vh;
     }
 }
     
@@ -193,9 +200,14 @@
         font-size: 1.1rem;
     }
     #contactme {
-        height: 59vh;
+        height: 50vh;
     }
-    
+    #projects{
+        height: 190vh;
+    }
+    .container5{
+        height: 73%;
+    }
     
 }
 
@@ -340,6 +352,9 @@
     }
     .intro .title {
         font-size: 8px;
+    }
+    #projects{
+        height: 300vh;
     }
 }
 
