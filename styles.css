@@ -780,6 +780,11 @@ margin-bottom: 5rem;
     font-family: 'Marko One', serif;
     font-weight: 300;
     text-decoration: underline;
+    text-align: center;
+}
+.projectbox1 h2:hover{
+    scale: 1.1;
+    transition: .5s;
 }
 
 .projectbox1rhsreading{
@@ -818,6 +823,11 @@ margin-bottom: 5rem;
     font-family: 'Marko One', serif;
     font-weight: 300;
     text-decoration: underline;
+    text-align: center;
+}
+.projectbox2lhsreading h2:hover{
+    scale: 1.1;
+    transition: .5s;
 }
 
 .projectbox2lhsabout p{
@@ -971,6 +981,12 @@ margin-bottom: 5rem;
     font-family: 'Marko One', serif;
     font-weight: 300;
     text-decoration: underline;
+    text-align: center;
+}
+
+.projectbox3 h2:hover{
+    scale: 1.1;
+    transition: .5s;
 }
 
 .projectbox3rhsreading{
@@ -985,7 +1001,7 @@ margin-bottom: 5rem;
 #contactme{                     /* Contacts Page */
     display: flex;
     flex-direction: row;
-    height: 58vh;
+    height: 64vh;
     padding: 20px;
     width: 100%;
     background-color: rgb(76, 76, 76);
@@ -1076,7 +1092,7 @@ margin-bottom: 5rem;
     position: relative;
     z-index: 1000;
     width: 63%;
-    height: 100%;
+    height: 95%;
     padding: 15px 25px;
     background: rgba(210, 210, 210, 0.2);
     color: black;
