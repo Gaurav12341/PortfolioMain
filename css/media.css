@@ -1,0 +1,455 @@
+
+
+
+@media screen and (max-width:1280px) {
+    #about .content2 h2 {
+        width: 64%;
+    }
+    .box {
+        height: 66%;
+    }
+
+    #about .content2 {
+        padding-right: 4%;
+    }
+
+    .skillbox {
+        margin: 2% 2%;
+    }
+    .intro h1 {
+        font-size: 61px;
+    }
+    .intro h2 {
+        font-size: 38px;
+    }
+    
+}
+
+
+
+
+@media  screen and (max-width:1024px) {
+    .intro h1 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    #contactme {
+
+        height: 71vh;
+    }
+    .container5 .row100 .col .inputBox .text {
+        line-height: 46px;
+        font-size: 14px;
+    }
+ 
+    .intro h2 {
+        font-size: 30px;
+    }
+    .intro p {
+        color: #717171;
+        margin-top: 1rem;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    .intro .title {
+        font-size: 12px;
+        
+        margin-bottom: 10px;
+    }
+    .intro .btn {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 7px 11px;
+    }
+    .skillbox {
+        width: 69px;
+        height: 60px;
+        margin: 2% 1%;
+    }
+    #about .content2 h2 {
+        width: 64%;
+        font-size: 34px;
+    }
+    #about {
+        padding: 0rem 1rem;
+    }
+    .content2 p {
+        font-size: .75rem;
+    }
+    .content2 h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.6rem;
+    }
+    .box {
+        width: 66%;
+        height: 57%;
+    }
+    .container5{
+        height: 100%;
+    }
+    .container5 h2 {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+    .container5 .row100 .col {
+        padding: 0 0px;
+        margin: 8px 0px 28px;
+    }
+
+    .socialmedia i {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+    .physical {
+        padding: 4% 5%;
+    }
+
+    .physical i {
+        line-height: 25px;
+        font-size: 1.1em;
+    }
+    .socialmedia {
+        padding: 2%;
+    }
+    form .btn1 {
+        width: 40%;
+        margin-top: 0%;
+    }
+
+    #projects{
+        height: 240vh;
+    }
+}
+    
+
+@media screen and (max-width:915px) {
+    .content .intro {
+
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 8rem;
+    }
+    .myimage img {
+        width: 78%;
+    }
+    .intro h2 {
+        font-size: 34px;
+    }
+    .box {
+        height: 33%;
+        width: 85%;
+    }
+    #about .content2 h2 {
+        width: 81%;
+    }
+    .skills {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .contactform {
+        justify-content: flex-start;
+    }
+    
+    .container5 {
+        position: relative;
+        z-index: 1000;
+        width: 92%;
+        height: 60%;
+    }
+    #inptextarea{
+        display: block;
+    }
+    form .btn1 {
+        margin-top: 3%;
+    }
+    #contactme {
+        height: 52vh;
+    }
+}
+
+
+
+@media screen and (max-width:823px) {
+    .intro h1 {
+        font-size: 38px;
+    }
+    .intro h2 {
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 61px;
+       
+    }
+    .intro .title {
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    #about .content2 h2 {
+        width: 90%;
+    }
+    .container5 .row100 .col {
+        margin: 10px 0px 30px;
+    }
+    form .btn1 {
+        margin-top: -2%;
+    }
+    .socialmedia i {
+        line-height: 25px;
+        font-size: 1.2rem;
+    }
+    .physical i {
+        line-height: 19px;
+        font-size: 1.1rem;
+    }
+    #contactme {
+        height: 50vh;
+    }
+    #projects{
+        height: 190vh;
+    }
+    .container5{
+        height: 73%;
+    }
+    
+}
+
+
+@media screen and (max-width:772px) {
+ 
+    form .btn1 {
+        margin-top: -3%;
+    }
+
+    #about .content2 h2 {
+        width: 96%;
+    }
+    .physical i {
+        line-height: 20px;
+    }
+    .socialmedia i {
+        line-height: 26px;
+    }
+    
+    .intro h1 {
+        font-size: 37px;
+    }
+    .intro h2 {
+        font-size: 29px;
+    }    
+    .container5 {
+        width: 100%;
+        height: 80%;
+    }
+    form .btn1 {
+        margin-top: 6%;
+    }
+    #about .content2 h2 {
+        width: 87%;
+    }
+    #contactme {
+        height: 56vh;
+    }
+}
+
+
+@media screen and (max-width:544px) {
+    .intro h1 {
+        font-size: 22px;
+        line-height: 48px;
+    }
+    .intro h2 {
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+
+    .intro .title {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    #about .content2 h2{
+        font-size: 22px;
+    }
+    .skillbox {
+        width: 62px;
+    }
+    .skillbox img{
+        width: 40px;
+    }
+    .skills {
+        margin-top: 8px;
+        margin-bottom: -39px;
+    }
+    .content2 h3 {
+        color: rgb(168, 168, 168);
+        font-family: 'Marko One', serif;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .hobbies li {
+        list-style: none;
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .content2 p {
+        font-size: .7rem;
+    }
+    .box {
+        height: 40%;
+        width: 100%;
+    }
+    #projects {
+        overflow: hidden;
+    }
+
+    .container5 {
+        width: 100%;
+        height: 95%;
+    }
+    .container5 h2 {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+    form .btn1 {
+        width: 45%;
+        margin-top: -4%;
+    }
+    
+    .socialmedia a {
+        font-size: 11px;
+    }
+
+    .socialmedia i {
+        font-size: 1rem;
+    }
+
+    .physical a{
+        font-size: 11px;
+    }
+
+    .physical i{
+        font-size: 1rem;
+    }
+    #contactme {
+        height: 62vh;
+    }
+    .container5 .row100 .col .inputBox .text {
+        line-height: 46px;
+        font-size: 11px;
+    }
+    .socialmedia i {
+        line-height: 20px;
+    }
+    .physical i {
+        line-height: 17px;
+    }
+    .intro p {
+        color: #717171;
+        margin-top: 1rem;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    .intro .btn {
+        font-size: 10px;
+    }
+    .intro .title {
+        font-size: 8px;
+    }
+    #projects{
+        height: 300vh;
+    }
+}
+
+
+
+@media screen and (max-width:416px){
+    .content .intro {
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-top: 0rem;
+    }
+    .intro .title {
+        font-size: 8px;
+    }
+    .intro h2 {
+        font-size: 15px;
+    }
+    .intro p {
+        font-size: .7rem;
+    }
+    .myimage img {
+        width: 89%;
+    }
+    #about .content2 h2 {
+        width: 109%;
+        font-size: 21px;
+
+    }
+    #about .content2 {
+        padding-top: 2rem;
+    }
+    .content2 h3 {
+        margin-top: 13px;
+    }
+    .hobbies li {
+        font-size: 10px;
+    }
+    .skillbox {
+        width: 69px;
+        height: 55px;
+    }
+    .box {
+        height: 21%;
+    }
+    .container5 h2 {
+        font-size: 12px;
+    }
+    .container5 .row100 .col .inputBox .text {
+        font-size: 11px;
+    }
+    form .btn1 {
+        width: 68%;
+        margin-top: 14%;
+    }
+    .socialmedia a {
+        font-size: 10px;
+    }
+
+    .socialmedia i {
+        font-size: 1rem;
+    }
+
+    .physical a{
+        font-size: 10px;
+    }
+
+    .physical i{
+        font-size: 1rem;
+    }
+    #contactme {
+        height: 54vh;
+    }
+    .container5 {
+        padding: 20px 10px;
+    }
+    .container5 .row100 .col .inputBox .text {
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width:395px) {
+    #about .content2 h2 {
+        width: 106%;
+        font-size: 19px;
+    }
+    .hobbies li {
+        font-size: 9px;
+    }
+    #contactme {
+        height: 56vh;
+    }
+    .container5 .row100 .col .inputBox .text {
+        font-size: 8px;
+    }
+    
+}
