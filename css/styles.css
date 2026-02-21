@@ -173,7 +173,7 @@ nav a:hover {
 }
 
 
-nav a:after {
+nav a:not([download]):after {
     content: "";
     position: absolute;
     left: 0;
@@ -184,7 +184,7 @@ nav a:after {
     bottom: 0;
 }
 
-nav a:hover:after {
+nav a:not([download]):hover:after {
     width: 100%;
 }
 
